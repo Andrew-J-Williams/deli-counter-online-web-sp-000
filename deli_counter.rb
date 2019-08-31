@@ -23,7 +23,7 @@ def take_a_number(array, name)
     else
       array << name
       position = array.length
-      puts "Welcome #{name}. You are "
+      puts "Welcome #{name}. You are number #{position} in line."
     end
 
 end
