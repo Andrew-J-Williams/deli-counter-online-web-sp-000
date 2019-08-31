@@ -20,7 +20,7 @@ def take_a_number(array, name) #Arguments are both an array and a string name.
 
     if array.length >= 0 #If the array has no elements or has more than zero elements...
       array << name #We shovel the name onto the end of the array.
-      position = array.length #Sets a variable equal to the numeric value of the string's length.
+      position = array.length #Sets a variable equal to the numeric value of the string's length after we've added a new element.
 
       puts "Welcome, #{name}. You are number #{position} in line."
     end
