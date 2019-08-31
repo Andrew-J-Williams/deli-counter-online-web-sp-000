@@ -16,9 +16,9 @@ def line(array)
 end
 
 
-def take_a_number(array, name)
+def take_a_number(array, name) #Arguments are both an array and a string name.
 
-    if array.length == 0 || array.length > 0
+    if array.length == 0 || array.length > 0 #
       array << name
       position = array.length
 
