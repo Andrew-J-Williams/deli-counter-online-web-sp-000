@@ -18,7 +18,7 @@ end
 
 def take_a_number(array, name) #Arguments are both an array and a string name.
 
-    if array.length == 0 || array.length > 0 #
+    if array.length >= 0 #If the array has no elements or has more than zero elements...
       array << name
       position = array.length
 
