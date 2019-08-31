@@ -20,6 +20,10 @@ def take_a_number(array, name)
 
     if array.length > 0
       array << name
+    else
+      array << name
+      position = array.length
+      puts "Welcome #{name}. You are "
     end
 
 end
