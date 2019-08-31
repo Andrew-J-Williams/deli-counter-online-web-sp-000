@@ -30,6 +30,8 @@ end
 def now_serving(array)
 
   if array.length > 0
-    puts 
+    puts "Hi"
+  else
+    puts "There is nobody waiting to be served!"
 
 end
