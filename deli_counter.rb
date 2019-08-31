@@ -29,10 +29,10 @@ end
 
 def now_serving(array)
 
-  if array.length > 0
-    puts "Currently serving " + array.shift + "."
-  else
-    puts "There is nobody waiting to be served!"
+  if array.length > 0 #If the array has more than zero elements...
+    puts "Currently serving " + array.shift + "." #...then output the string including the name of the first element removed from the array.
+  else #But if the array contains no elements...
+    puts "There is nobody waiting to be served!" #...then we output the message indicating no one is waiting.
   end
 
 end
