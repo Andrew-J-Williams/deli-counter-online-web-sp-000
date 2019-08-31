@@ -23,7 +23,5 @@ def take_a_number(array, name)
       position = array.length
 
       puts "Welcome, #{name}. You are number #{position} in line."
-
     end
-    take_a_number(array, name)
 end
